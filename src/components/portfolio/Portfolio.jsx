@@ -1,11 +1,11 @@
 import React from 'react';
 import "./portfolio.css";
-import IMGI from '../../assets/PXL_20230408_133556303.PORTRAIT.jpg'
+import IMGI from '../../assets/nvtech.jpg'
 import IMGI1 from '../../assets/me.png'
-import IMGI2 from '../../assets/avatar1.jpg'
-import IMGI3 from '../../assets/avatar2.jpg'
-import IMGI4 from '../../assets/avatar3.jpg'
-import IMGI5 from "../../assets/avatar4.jpg";
+import IMGI2 from '../../assets/sed.jpg'
+import IMGI3 from '../../assets/silva.jpg'
+import IMGI4 from '../../assets/drone.jpg'
+import IMGI5 from "../../assets/eng.jpg";
 
 
 const Portfolio = () => {

@@ -29,6 +29,7 @@
 }
 .service__list {
     padding: 2rem;
+    font-family: monospace;
 }
 .service__list li {
     display: flex;

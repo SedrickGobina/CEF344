@@ -2,8 +2,8 @@ import React from "react";
 import "./testimonials.css";
 import AVTRI from '../../assets/avatar1.jpg'
 import AVTRI1 from "../../assets/avatar2.jpg";
-import AVTRI2 from "../../assets/avatar.jpg";
-import AVTRI3 from "../../assets/avatar.jpg";
+import AVTRI2 from "../../assets/avatar3.jpg";
+import AVTRI3 from "../../assets/avatar4.jpg";
 
 
 // import Swiper core and required modules
@@ -35,7 +35,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTRI} alt="avatar" />
           </div>
-          <h5 className="client__name">George</h5>
+          <h5 className="client__name">Divine</h5>
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, qui
             dolorum! Quisquam, minima debitis! Dolorum officiis dolores iste
@@ -47,7 +47,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTRI1} alt="avatar" />
           </div>
-          <h5 className="client__name">George</h5>
+          <h5 className="client__name">Denzel</h5>
 
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, qui
@@ -60,7 +60,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTRI2} alt="avatar" />
           </div>
-          <h5 className="client__name">George</h5>
+          <h5 className="client__name">Wesley</h5>
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, qui
             dolorum! Quisquam, minima debitis! Dolorum officiis dolores iste
@@ -72,7 +72,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTRI3} alt="avatar" />
           </div>
-          <h5 className="client__name">George</h5>
+          <h5 className="client__name">Gil</h5>
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, qui
             dolorum! Quisquam, minima debitis! Dolorum officiis dolores iste
