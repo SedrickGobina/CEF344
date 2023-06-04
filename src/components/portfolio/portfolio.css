@@ -41,3 +41,13 @@
     }
     
 }
+
+h2{
+    font-family: monospace;
+    border: 5px solid rgb(52, 142, 184);
+    border-radius: 2.5px;
+}
+
+h5{
+    font-size: 22px;
+}
