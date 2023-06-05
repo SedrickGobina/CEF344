@@ -103,7 +103,7 @@ const Portfolio = () => {
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={IMGI5} alt="porfolio" />
-              <h3>Cryptography</h3>
+              <h3>This is a portfolio item title</h3>
               <div className=".portfolio__item-cta">
                 <a href="https://github.com" className="btn">
                   Github

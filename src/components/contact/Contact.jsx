@@ -10,19 +10,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_37sex9l",
-      "template_8opbyg1",
+      "service_c6bvh8n",
+      "template_6qwzbwo",
       form.current,
-      "TOLS8KC9FmTAccclU"
+      "Og3-mFkU0Q0eTzVsc"
     );
-    e.target.reset().then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    
+    e.target.reset()
   };
   return (
     <section id="contact">
@@ -55,20 +49,14 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="full name" required />
-          <input type="email" name="email" placeholder="your email" required />
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="your message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            send message
-          </button>
-        </form>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
       </div>
     </section>
   );
